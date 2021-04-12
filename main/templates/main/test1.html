@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Последние новости</title>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Reggae+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Cut&family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://w7.pngwing.com/pngs/978/493/png-transparent-dog-paw-illustration-dog-cat-paw-animal-track-footprint-footprint-animals-pet-heart.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Brygada+1918&family=Quattrocento+Sans&family=Reggae+One&display=swap" rel="stylesheet">
+    <style type="text/css">
+     body {
+     position: absolute;
+     left: 50%;
+     transform: translateX(-50%);
+     font-family: 'Quattrocento Sans', sans-serif;
+     font-size: 18px;
+     background-color: #ECECEC;
+     max-width: 1540px;
+     }
+     .header1{
+      max-width: 1440px;
+      margin: 0 auto;
+     }
+
+     .nav1{
+     padding-top: 35px;
+    margin-bottom: -200px;
+    margin-left: -0px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    transition: 0,2s;
+    }
+    .nav1> li{
+    padding-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+    .nav1 > li >a{
+    text-decoration: none;
+    color: black;
+    }
+    .wrapper1{
+    padding-bottom: 60px;
+    padding-right: 550px;
+    padding-top: 60px;
+    background-image: url(/static/images/logo1.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    }
+    .snet{
+    padding-left: 1080px;
+    padding-top: 200px;
+    transition: 0,2s;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    }
+   .snet > li{
+    list-style-type: none;
+    margin-left: 7px;
+    margin-right: 10px;
+    }
+    .vk{
+    padding-left: 65px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    background-size: cover;
+    background-image: url(/static/images/vk.svg);
+    }
+    .wa{
+    padding-left: 45px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-size: cover;
+    background-image: url(/static/images/tg.svg);
+    }
+    .insta{
+    padding-left: 46px;
+    padding-top: 16px;
+    padding-bottom: 10px;
+    background-size: cover;
+    background-image: url(/static/images/insta.svg);
+    }
+
+    .cat{
+    list-style-type: none;
+    margin-bottom: -452px;
+    margin-left: 750px;
+
+    }
+    .cat1>li{
+    list-style-type: none;
+    padding-bottom: 280px;
+    padding-left: 1087px;
+    padding-top: 40px;
+    background-image: url(/static/images/cat1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    }
+
+    .cat2{
+    max-width: 1440px;
+    list-style-type: none;
+    margin-bottom: 0px;
+    margin-left: -770px;
+    padding-bottom: -120px;
+    padding-right: 1300px;
+    padding-top: 525px;
+    margin-top: 25px;
+    background-image: url(/static/images/cat2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    }
+    .snetf{
+    padding-right: 1160px;
+    padding-top: 190px;
+    transition: 0,2s;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    }
+    .snetf > li{
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+    .vkf{
+    mix-blend-mode: color-burn;
+    padding-left: 65px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    background-size: cover;
+    background-image: url(/static/images/vkf.svg);
+    }
+    .waf{
+    mix-blend-mode: color-burn;
+    padding-left: 45px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-size: cover;
+    background-image: url(/static/images/tgf.svg);
+    }
+    .instaf{
+    mix-blend-mode: color-burn;
+    padding-left: 46px;
+    padding-top: 16px;
+    padding-bottom: 10px;
+    background-size: cover;
+    background-image: url(/static/images/instaf.svg);
+    }
+
+
+
+   </style>
+</head>
+<body>
+     <header class="header1">
+        <div class="wrapper1">
+                  <h1 style="font-family: 'Racing Sans One', cursive;
+                       position: absolute;
+                       left: 11.65%;
+                       right: 33.33%;
+                       padding-top: 7px;
+                       padding-bottom: 15px;
+                       font-family: 'Racing Sans One', cursive;
+                       font-style: normal;
+                       font-weight: bold;
+                       font-size: 48px;
+                       letter-spacing: 0.55em;
+                       text-indent: 60px;
+                      color: #000000;"
+                  >Fatya Cat web</h1>
+            <nav>
+               <ul class="nav1">
+                   <li><a href="{% url 'main' %}">Главная</a></li>
+                   <li><a href="{% url 'cat-info' %}">О нас</a></li>
+                   <li><a href="{% url 'last-news' %}">Последние новости</a></li>
+                   <li><a href="{% url 'otziv' %}">Отзывы</a></li>
+               </ul>
+            </nav>
+        <div class="cat">
+            <ul class="cat1">
+              <li><a href="#"></a></li>
+            </ul>
+        </div>
+            <div class="cat">
+         <ul class="cat2">
+             <li><a href="#"></a></li>
+         </ul>
+        </div>
+            <div>
+             <ul class="snet">
+             <li><a href="#" class="vk"></a></li>
+              <li><a href="#" class="wa"></a></li>
+             <li><a href="#" class="insta"></a></li>
+            </ul>
+            </div>
+        </div>
+     </header>
+<header>
+      <h1 style="padding-left: 39%;
+                 padding-top: 10px;
+                 margin-bottom: 60px;
+                 font-size: 36px;
+                 justify-content: center;
+                 font-family: 'Reggae One', cursive;"
+      >Последние новости</h1>
+</header>
+    <ul>
+     {% for post in news %}
+     <div class="alert alert-success alert-dismissible fade show mt-2">
+            <h2 style="position: absolute;
+                       width: 672px;
+                       height: 61px;
+                       left: 42.4%;
+                       top: 12%;
+
+                       font-family: 'Brygada 1918', serif;
+                       font-style: normal;
+                       font-weight: normal;
+                       font-size: 48px;
+                       line-height: 57px;
+                       text-align: center;
+                       text-indent: 5px;
+
+                       color: #000000;"
+            >{{ post.title }}</h2>
+            <p style="position: absolute;
+                      width: 767px;
+                      height: 286px;
+                      left: 40%;
+                      top: 47%;
+
+                  font-family: 'Brygada 1918', serif;
+                  font-style: normal;
+                  font-weight: normal;
+                  font-size: 24px;
+                 line-height: 29px;
+                 text-align: center;
+                 text-indent: 8px;
+
+                color: #000000;
+           ">{{ post.des }}</p>
+            <img style="border-radius: 7px;
+                       border: 0.05px solid #000000;
+                       max-width:480px;
+                       max-height:640px" src="{{ post.cover.url}}" alt="{{ post.title }}">
+     </div>
+        <hr>
+     {% endfor %}
+    </ul>
+    <ul>
+    {% for elem in cnt %}
+    <h2>{{elem.author}}</h2>
+    <p>{{ elem.created }}</p>
+      <p>{{ elem.text }}</p>
+    <hr>
+    {% endfor %}
+
+  </ul>
+</body>
+<footer style="position: absolute;
+width: 1575px;
+height: 357px;
+left: -50px;
+top: 100%;
+
+background: linear-gradient(360deg, #767676 26.86%, #ABABAB 95.92%, #ECECEC 100%), #D0D0D0;
+opacity: 1.9;">
+    <hr style="position: absolute;
+width: 399px;
+height: 0px;
+left: 365px;
+top: 170px;
+
+transform: rotate(60.42deg);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.55);
+filter: blur(0.7px);">
+    </hr>
+         <h1 style="position: absolute;
+width: 436px;
+height: 46px;
+left: 116px;
+top: 81px;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: 0.03em;
+text-indent: 5px;
+
+color: #4F4F4F;">
+             Социальные сети
+         </h1>
+         <h1 style="position: absolute;
+width: 436px;
+height: 46px;
+left: 716px;
+top: 81px;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: 0.03em;
+text-indent: 5px;
+
+color: #4F4F4F;">
+             Сотруднечество
+         </h1>
+         <h1 style="position: absolute;
+width: 436px;
+height: 46px;
+left: 1156px;
+top: 81px;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: 0.03em;
+text-indent: 5px;
+
+color: #4F4F4F;">
+             Создатель
+         </h1>
+            <div>
+             <ul class="snetf">
+             <li><a href="#" class="vkf"></a></li>
+              <li><a href="#" class="waf"></a></li>
+             <li><a href="#" class="instaf"></a></li>
+            </ul>
+            </div>
+         <div style="position: absolute;
+width: 436px;
+height: 46px;
+left: 705px;
+top: 130px;
+
+font-family: Racing Sans One;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: 0.01em;
+text-indent: 5px;
+">
+              <ul style="list-style-type: none;">
+                   <li><a style="color: #4F4F4F;text-decoration: none;" href="">Реклама на сайте</a></li>
+                   <li><a style="color: #4F4F4F;text-decoration: none;" href="">Банковская карта</a></li>
+                   <li><a style="color: #4F4F4F;text-decoration: none;" href="">КИВИ</a></li>
+                   <li><a style="color: #4F4F4F;text-decoration: none;" href="">ВК пэй</a></li>
+               </ul>
+         </div>
+    <div style="position: absolute;
+width: 436px;
+height: 46px;
+left: 1140px;
+top: 130px;
+
+font-family: Racing Sans One;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: 0.01em;
+text-indent: 5px;
+">
+              <ul style="list-style-type: none;">
+                   <li><a style="color: #4F4F4F;text-decoration: none;" href="">Евгений Алпатов</a></li>
+                   <li><a style="color: #4F4F4F;text-decoration: none;" href=""></a></li>
+                   <li><a style="color: #4F4F4F;text-decoration: none;" href=""></a></li>
+                   <li><a style="color: #4F4F4F;text-decoration: none;" href=""></a></li>
+               </ul>
+         </div>
+</footer>
+</html>

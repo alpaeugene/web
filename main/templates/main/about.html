@@ -1,0 +1,19 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+О коте Фатя
+{% endblock %}
+
+{% block contect %}
+     <h1>Биография</h1>
+     <form method="post" enctype="multipart/form-data">
+  {% csrf_token %}
+  {{ form.as_p }}<br>
+  <button type="submit" class="btn btn-success">Опубликовать пост</button>
+    </form>
+
+
+     <p>Родился в красносельском районе СПб</p>
+{% endblock %}
+
+
